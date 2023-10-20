@@ -3,8 +3,8 @@ Implimanations for the methods for detecting meaning changes with their represen
 The details of the methods are available in the paper.
 
 
-#Citation
-
+## Citation
+---
 Please cite the following paper if you use the above resources.
 
 @inproceedings{,
@@ -13,6 +13,6 @@ Please cite the following paper if you use the above resources.
    booktitle = "Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP 2023)",
    year = "2023",
 }
-
-#Contact
+---
+## Contact
 Ryo Nagata (nagata-emnlp2023 [at] ml.hyogo-u.ac.jp).
