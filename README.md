@@ -3,7 +3,6 @@ Implimanations for the methods for detecting meaning changes with their represen
 The details of the methods are available in the paper.
 
 ## Citation
----
 Please cite the following paper if you use the above resources.
 
 @inproceedings{,
