@@ -1,6 +1,6 @@
 # Usage
 
-To detect words whose meanings are different in the input two corpora (source and target corpora).
+To detect words whose meanings are different in the input two corpora (source and target corpora). The options are found
 ```bash
 python detect_meaning_differences.py SOURCE_CORPUS TARGET_CORPUS
 ```
