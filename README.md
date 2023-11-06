@@ -3,11 +3,11 @@ Implimanations for the methods for detecting meaning changes with their represen
 
 ## Citation
 Please cite the following paper if you use the above resources.  
-@inproceedings{nagata-et-al,   
+@inproceedings\{nagata-et-al,   
  title = "Variance Matters\:\ Detecting Semantic Differences without Corpus/Word Alignment",  
  author = "Ryo Nagata and Hiroya Takamura and Naoki Otani and Yoshifumi Kawasaki",  
- booktitle = "Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP 2023)",  
- year = "2023"}  
+ booktitle = "Proceedings of the Conference on Empirical Methods in Natural Language Processing",  
+ year = "2023"\}  
 
 ## Contact
 Ryo Nagata (nagata-emnlp2023 [at] ml.hyogo-u.ac.jp).
