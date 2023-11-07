@@ -1,5 +1,5 @@
-# Meaning change detector based on the variance of word vector directions.
-Implimanations for the methods for detecting meaning changes with their representative instances. All source codes are available under src/. The details of the methods are available in the paper. 
+# Meaning difference detector based on the variance of word meanings.
+Implimanations for the methods for detecting meaning changes (differences) with their representative instances. All source codes are available under src/. The details of the methods are available in the follwoing paper. 
 
 ## Citation
 Please cite the following paper if you use the above resources.  
