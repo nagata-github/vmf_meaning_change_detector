@@ -3,12 +3,13 @@
 ## Lexical Semantic Difference Detection
 To detect words whose meanings are different in the input two corpora (source and target corpora).
 ```bash
-python detect_meaning_differences.py SOURCE_CORPUS TARGET_CORPUS
+python detect_meaning_differences.py SOURCE_CORPUS TARGET_CORPUS > OUTPUT_FILE
 ```
 The input corpora, SOURCE_CORPUS and TARGET_CORPUS, are text files with the sentence-per-line format. Upper/lower cases are ignored by default, but they are considered by the options (--cased and also use a corresponding model --bert_model).
 
 The output format is: Word TAB Score TAB Frequency of word in source corpus TAB Frequency of word in target corpus. The lines are sorted in descending order according to the score, meaning that the higher the rank is, the larger difference the word has in the source and target corpora.
 
+It may take quite some time if the input corpora are large even with a GPU machine.
 
 ## Representative Word Instance Extraction
 To extract word instances of a specified word type having wider meanings in the source corpus than in the target corpus.
