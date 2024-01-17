@@ -81,15 +81,11 @@ def load_sentences_with_target_spans(corpus_file, target_phrase, cased=False):
 def cal_spans(words, words_in_target_phrase):
     
     spans = []
-    len_of_words_target_word = len(words_in_target_phrase)
-    for i in range(len(words)-len(words_in_target_phrase)+1):
-        for j in range(len(words_in_target_phrase)):
-            w1 = words[i+j]
-            w2 = words_in_target_phrase[j]
-            if w1 != w2:
-                break
-        else:
-            spans.append((i, i+len(words_in_target_phrase)))
+    len_of_target_phrase = len(words_in_target_phrase)
+    for i in range(len(words)-len_of_target_phrase+1):
+        words_ = words[i:i+len_of_target_phrase]
+        if words_ == words_in_target_phrase:
+            spans.append((i, i+len_of_target_phrase))
 
     return spans
 
