@@ -54,16 +54,14 @@ def cal_scores(source_vecs, target_vecs):
     source_vecs = [ v/np.linalg.norm(v) for v in source_vecs ]
     source_mean_vec = np.mean(source_vecs, axis=0)
     source_mean_norm = np.linalg.norm(source_mean_vec)
-    normalized_source_mean_vec = source_mean_vec/source_mean_norm
 
     target_vecs = [ v/np.linalg.norm(v) for v in target_vecs ]
     target_mean_vec = np.mean(target_vecs, axis=0)
     target_mean_norm = np.linalg.norm(target_mean_vec)
-    normalized_target_mean_vec = target_mean_vec/target_mean_norm
 
     diff_vec =\
-        normalized_source_mean_vec/(1.0 - source_mean_norm**2)\
-        - normalized_target_mean_vec/(1.0 - target_mean_norm**2)
+        source_mean_vec/(1.0 - source_mean_norm**2)\
+        - target_mean_vec/(1.0 - target_mean_norm**2)
 
     scores = []
     for i, v in enumerate(source_vecs):
