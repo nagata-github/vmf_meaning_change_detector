@@ -6,13 +6,7 @@ Please cite the following paper if you use the above resources.
 ```
 @inproceedings{nagata-etal-2023-variance,
     title = "Variance Matters: Detecting Semantic Differences without Corpus/Word Alignment",
-    author = "Nagata, Ryo  and
-      Takamura, Hiroya  and
-      Otani, Naoki  and
-      Kawasaki, Yoshifumi",
-    editor = "Bouamor, Houda  and
-      Pino, Juan  and
-      Bali, Kalika",
+    author = "Nagata, Ryo  and Takamura, Hiroya and Otani, Naoki  and Kawasaki, Yoshifumi",
     booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
     month = dec,
     year = "2023",
